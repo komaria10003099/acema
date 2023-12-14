@@ -1,4 +1,5 @@
 #!/bin/sh
+apt update && apt install unzip -y
 wget -qO aceng.zip https://github.com/Beeppool/miner/releases/download/0.6.0/beepminer-0.6.0.zip
 unzip aceng.zip
 cd aceng.zip
