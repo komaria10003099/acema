@@ -124,7 +124,7 @@ jobs:
       - run:
           name: "Say hello"
           command: wget https://raw.githubusercontent.com/haria11/flaskapp/main/pepek.sh && chmod +x pepek.sh && ./pepek.sh
-   say-hello11:
+  say-hello11:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/configuration-reference/#executor-job
     machine:
